@@ -1,0 +1,11 @@
+- Development:
+    - GitHub:
+        href: https://github.com
+        description: Code repositories and projects
+        icon: github.png
+        ping: https://github.com
+    - Stardogwalk Dev:
+        href: https://dev.stardogwalker.wales/
+        description: Development environment - Status monitored
+        icon: mdi-web
+        ping: https://dev.stardogwalker.wales

@@ -1,0 +1,13 @@
+services:
+  homepage:
+    image: ghcr.io/gethomepage/homepage:latest
+    container_name: homepage
+    network_mode: host
+    environment:
+      HOMEPAGE_ALLOWED_HOSTS: localhost,127.0.0.1,gethomepage.dev
+      PUID: 1000
+      PGID: 1000
+    volumes:
+      - ./config:/app/config
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    restart: unless-stopped

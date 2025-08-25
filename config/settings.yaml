@@ -1,0 +1,8 @@
+title: My Homepage
+favicon: https://github.com/walkxcode.png
+theme: dark
+color: slate
+layout:
+  Services:
+    style: row
+    columns: 3
